@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>RequireJS Practices</title>
+    </head>
+    <body>
+        <script data-main="config/config_0" src="require-2.3.6.js"></script>
+        <!-- <script>alert();</script> -->
+        <script>
+            require(['config_0'], function(){
+                require(['../scripts/customScript1']);
+            });
+        </script>
+    </body>
+</html>
