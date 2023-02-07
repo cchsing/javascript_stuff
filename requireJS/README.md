@@ -1,1 +1,0 @@
-# RequireJS for Dependencies Management

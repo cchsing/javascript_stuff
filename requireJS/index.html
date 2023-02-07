@@ -2,15 +2,30 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>RequireJS Practices</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Splunk Dcoumentation</title>
     </head>
     <body>
-        <script data-main="config/config_0" src="require-2.3.6.js"></script>
-        <!-- <script>alert();</script> -->
-        <script>
-            require(['config_0'], function(){
-                require(['../scripts/customScript1']);
-            });
-        </script>
+        <header>
+            <h1>JavaScript Documentation</h1>
+        </header>
+
+        <div id="button_menu">
+            <input id="button_1" type="button" value="README.md">
+        </div>
+
+        <div id="div_1">
+
+        </div>
+
+        <footer>
+            <script data-main="starter" src="/lib/require.js"></script>
+            <script>
+                require(["starter"], function () {
+                    // this will load the 'starter' file and then the code in the function block
+                    require(['myScript'])
+                });
+            </script>
+        </footer>
     </body>
 </html>
